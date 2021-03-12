@@ -18,10 +18,15 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
     -	8-Bit DAC design and simulation
     -	9-Bit DAC design
     -	10-Bit DAC design
--	7.Instructions to get started with the design
+-	7.Post-Layout Designs and Simulations (Conventional Implementation)
+    -   Resistor Design
+    -   Capacitor Design
+    -   Inverter Desing
+-	8.Instructions to get started with the design
     -	Pre-layout Simulation commands
--	8.Future Works
--	9.Contributors
+    -	Post-layout Simulation commands
+-	9.Future Works
+-	10.Contributors
 
 ## 1.Purpose of Digital to Analog Converter (DAC)
 In real world, most of the data available is in the form of analog in nature. We have two types of converters analog to digital converter and digital to analog converter. These two converting interfaces are essential to obtain the required operations of a processor to manipulate the data of digital electronic equipment and an analog electric equipment. 
@@ -215,8 +220,24 @@ The my_10bitdac.spice spice file can be excecuted to test.
 
 Every block of the circuit until 10 bit DAC are tested and spice models until 10 bit dac are included in [specified folders](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/tree/main/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles).
 
-## 7.Instructions to get started with the design
-# Spice simulation speed improvement
+
+## 7.Post-layout Designs and Simulations (Conventional Implementation)
+#### *Resistor Design*
+
+![Resistor Design](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout/resistor_np.PNG)
+
+As of now l=550, it can be edited as per requirment while desinging the further layout
+
+#### *Capacitor Design*
+
+The 500nF capacitor is used at the end of 8Bit, 9Bit, and 10Bit simulations to reduce the glitches in the output. The Capatior available in the SKY130 PDK will be used.
+
+#### *Inverter Design*
+
+![Inverter Desing](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout/INV.PNG)
+
+## 8.Instructions to get started with the design
+#### Spice simulation speed improvement
  Ngspice provides multithreading options to improve the simulation time. To enable multithreading following steps are to be followed:
 
  o Install ngspice from tarball
@@ -271,14 +292,18 @@ o	Command to simulate .Spice files of new proposed design
 
     ngspice ProjectDesigns/spicefiles/<Designname.spice>  
 
+#### Post-layout Simulation commands
+o   Clone the git repo with following command (if you haven't clodes for pre-layout simulation)
 
-## 8.Future Works
+        git clone  https://github.com/deepsita/P-DAC_INTERNSHIP.git
+
+## 9.Future Works
 
 Layout of 10Bit Potentiometer DAC.
 The design for the new implementation can be modify and the results for both designs can be compared
 
 
-## 9.Contributors
+## 10.Contributors
 
 Skandha Deepsita - skandha.deepsita5@gmail.com
 
