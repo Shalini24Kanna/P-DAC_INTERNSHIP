@@ -127,10 +127,8 @@ To see this waveform run switch.spice file
 
 ![2Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/2bitdac_sch.PNG)
 
-![2Bit DAC WaveForm](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/2bitdac.PNG)
 
-The glitches in the output response is due to the large size of the switches, that result in large parasitic capacitance. The switches were resized to mitigate the effect of the glitches. The response of it is below:
-![2Bit_waveform_nospices](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/2bit_nospikes.PNG)
+![2Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/2bit_waveform.PNG)
 
 
 To see this waveform run my_2bitdac.spice file
@@ -141,7 +139,7 @@ To see this waveform run my_2bitdac.spice file
 
 ![3Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/3bitdac_sch.PNG)
 
-![3Bit DAC WaveForm](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/3bitdac.PNG)
+![3Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/3bit_waveform.PNG)
 
 To see this waveform run my_3bitdac.spice file
 
@@ -151,7 +149,7 @@ To see this waveform run my_3bitdac.spice file
 
 ![4Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/4bitdac_sch.PNG)
 
-![4Bit DAC WaveForm](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/4bitdac.PNG)
+![4Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/4bit_waveform.PNG)
 
 To see this waveform run my_4bitdac.spice file
 
@@ -161,11 +159,8 @@ To see this waveform run my_4bitdac.spice file
 
 ![5Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/5bitdac_sch.PNG)
 
-![5Bit DAC WaveForm](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/5bitdac_waveforms_lvt_devices.PNG)
+![5Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/5bit_waveform.PNG)
 
-
-The glitches in the output response is due to the large size of the switches, that result in large parasitic capacitance. The switches were resized to mitigate the effect of the glitches. The response of it is below:
-![5Bit_waveform_nospices](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/5BitWaveform_new.PNG)
 
 To see this waveform run my_5bitdac.spice file
 
@@ -175,11 +170,9 @@ To see this waveform run my_5bitdac.spice file
 
 ![6Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/6bitdac_sch.PNG)
 
-![6Bit DAC WaveForm](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/6bit_waveforms.PNG)
+![6Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/6bit_waveform.PNG)
 
 
-The glitches in the output response is due to the large size of the switches, that result in large parasitic capacitance. The switches were resized to mitigate the effect of the glitches. The response of it is below:
-![6Bit_waveform_nospices](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/6BitWaveform_new.PNG)
 
 To see this waveform run my_6bitdac.spice file
 
@@ -188,10 +181,8 @@ To see this waveform run my_6bitdac.spice file
 7Bit DAC is implemented using 2 6-Bit DACs and 1 switch instances. 7-Bit circuitry and waveform are shown bellow
 ![7Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/7bit_sch.PNG)
 
-![7Bit DAC WaveForm](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/7bitdac_waveforms.PNG)
+![7Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/7bit_waveform.PNG)
 
-The glitches in the output response is due to the large size of the switches, that result in large parasitic capacitance. The switches were resized to mitigate the effect of the glitches. The response of it is below:
-![7Bit_waveform_nospices](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/7BitWaveform_new.PNG)
 
 To see this waveform run my_7bitdac.spice file
 
@@ -201,29 +192,28 @@ To see this waveform run my_7bitdac.spice file
 
 ![8Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/8bitdac_sch.PNG)
 
-![8Bit DAC WaveForm](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/8bitdac_wave.PNG)
-
-The glitches in the output response is due to the large size of the switches, that result in large parasitic capacitance. The switches were resized to mitigate the effect of the glitches. The response of it is below:
-![8Bit_waveform_nospices](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/8bit_new_wave.PNG)
+![8Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/8bit_waveform.PNG)
 
 To see this waveform run my_8bitdac.spice file
 
 #### *9-Bit DAC design:*
 9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instances. 9-Bit circuitry is shown bellow
 
-![9Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/9bit_sch.PNG)
-The ngspice gives a message killed after running for long hours. To mitigate this new model files were used so that only the model files that are required can be used. However, the ngspice is getting killed.
+![9Bit DAC Design](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/9bit.png)
+
+
 The my_9bitdac.spice spice file can be excecuted to test. 
 
 #### *10-Bit DAC design:*
 10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instances. 10-Bit circuitry is shown bellow
 
-![10Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/10bitdac_sch.PNG)
-The ngspice gives a message killed after running for long hours. To mitigate this new model files were used so that only the model files that are required can be used. However, the ngspice is getting killed.
+![10Bit DAC Design](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/10bit.png)
+
+
 The my_10bitdac.spice spice file can be excecuted to test.
 
 
-Every block of the circuit until 8 bit DAC are tested and spice models until 10 bit dac are included in [specified folders](https://github.com/deepsita/P-DAC_INTERNSHIP/tree/main/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles).
+Every block of the circuit until 10 bit DAC are tested and spice models until 10 bit dac are included in [specified folders](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/tree/main/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles).
 
 ## 7.Instructions to get started with the design
 # Spice simulation speed improvement
@@ -283,7 +273,7 @@ o	Command to simulate .Spice files of new proposed design
 
 
 ## 8.Future Works
-Conventional 9Bit and 10Bit simulations will be updated.
+
 Layout of 10Bit Potentiometer DAC.
 The design for the new implementation can be modify and the results for both designs can be compared
 
