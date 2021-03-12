@@ -311,8 +311,8 @@ The design for the new implementation can be modify and the results for both des
 
 ## 10.Contributors
 
-Skandha Deepsita - skandha.deepsita5@gmail.com
-
 Shalini Kanna - kannashalini97@gmail.com
 
 Harshitha Basavaraju - harshithab0707@gmail.com
+
+Skandha Deepsita - skandha.deepsita5@gmail.com
