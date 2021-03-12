@@ -2,18 +2,19 @@
 
 **.subckt 9bitdac_tb
 x1 x1_inp1 x1_inp2 x1_vdd 0 x1_d0 x1_d1 x1_out_v x1_d2 x1_d3 x1_d4 x1_d5 x1_d6 x1_d7 x1_d8 9bitdac
-V1 x1_vdd 0 dc 3.3
-V2 x1_d0 0 PULSE 0 1.8 0 100p 100p 5n 10n
-V3 x1_d1 0 PULSE 0 1.8 0 100p 100p 10n 20n
+V1 x1_vdd 0 dc 3.3V
+V2 x1_d0 0 PULSE 0 1.8 0 1p 1p 5u 10u
+V3 x1_d1 0 PULSE 0 1.8 0 1p 1p 10u 20u
 V4 x1_inp2 0 dc 0
 V5 x1_inp1 0 dc 3.3V
-V6 x1_d2 0 PULSE 0 1.8 0 100p 100p 20n 40n
-V7 x1_d3 0 PULSE 0 1.8 0 100p 100p 40n 80n
-V8 x1_d4 0 PULSE 0 1.8 0 100p 100p 80n 160n
-V9 x1_d5 0 PULSE 0 1.8 0 100p 100p 160n 320n
-V10 x1_d6 0 PULSE 0 1.8 0 100p 100p 320n 640n
-V11 x1_d7 0 PULSE 0 1.8 0 100p 100p 640n 1280n
-V12 x1_d8 0 PULSE 0 1.8 0 100p 100p 1280n 2560n
+V6 x1_d2 0 PULSE 0 1.8 0 1p 1p 20u 40u
+V7 x1_d3 0 PULSE 0 1.8 0 1p 1p 40u 80u
+V8 x1_d4 0 PULSE 0 1.8 0 1p 1p 80u 160u
+V9 x1_d5 0 PULSE 0 1.8 0 1p 1p 160u 320u
+V10 x1_d6 0 PULSE 0 1.8 0 1p 1p 320u 640u
+V11 x1_d7 0 PULSE 0 1.8 0 1p 1p 640u 1280u
+V12 x1_d8 0 PULSE 0 1.8 0 1p 1p 1280u 2560u
+C1 x1_out_v 0 500f
 **.ends
 
 * expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/9bitdac.sym # of pins=14
@@ -36,7 +37,7 @@ V12 x1_d8 0 PULSE 0 1.8 0 100p 100p 1280n 2560n
 R1 x1_vref5 x2_vref1 250
 x3 x1_out_v vdd out_v d8 gnda x2_out_v TG2
 x1 inp1 x1_vref5 vdd gnda d0 d1 x1_out_v d2 d3 d4 d5 d6 d7 8bitdac
-x2 x2_verf2 inp2 vdd gnda d0 d1 x2_out_v d2 d3 d4 d5 d6 d7 8bitdac
+x2 x2_vref1 inp2 vdd gnda d0 d1 x2_out_v d2 d3 d4 d5 d6 d7 8bitdac
 .ends
 
 
@@ -59,7 +60,7 @@ x2 x2_verf2 inp2 vdd gnda d0 d1 x2_out_v d2 d3 d4 d5 d6 d7 8bitdac
 R1 x1_vref5 x2_vref1 250
 x3 x1_out_v vdd out_v d7 gnda x2_out_v TG2
 x1 inp1 x1_vref5 vdd gnda d0 d1 x1_out_v d2 d3 d4 d5 d6 7bitdac
-x2 x2_vref1 inp2 vdd gnda d0 d1 x2_out_v d2 d2 d4 d5 d6 7bitdac
+x2 x2_vref1 inp2 vdd gnda d0 d1 x2_out_v d2 d3 d4 d5 d6 7bitdac
 .ends
 
 * expanding   symbol:  /home/harshitha/Desktop/xschem/xschem_library/7bitdac.sym # of pins=12
@@ -201,10 +202,12 @@ XM6 inp2 dd vout vout sky130_fd_pr__pfet_01v8 L=0.15 W=1.2
 
 .ends
 
-.tran 0.1n 2560n
+.tran 2u 2560u
 .control
 run 
-plot x1_d0 x1_d1 x1_d2 x1_d3 x1_d4 x1_d5 x1_d6 x1_d7 x1_d8 x1_out_v
+plot x1_d0 x1_d1 x1_d2 x1_d3 x1_d4 x1_d5 x1_d6 x1_d7 x1_d8 
+plot x1_out_v
 
 .endc
 .end
+
