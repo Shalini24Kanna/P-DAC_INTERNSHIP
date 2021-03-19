@@ -16,13 +16,24 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
     -	6-Bit DAC design and simulation
     -	7-Bit DAC design and simulation
     -	8-Bit DAC design and simulation
-    -	9-Bit DAC design
-    -	10-Bit DAC design
+    -	9-Bit DAC design and simulation
+    -	10-Bit DAC design and simulation
 -	7.Post-Layout Designs and Simulations (Conventional Implementation)
-    -   Resistor Design
-    -   Capacitor Design
-    -   Inverter Desing
+    -   Resistor 250 layout and value
+    -   Resistor 500 layout and value
+    -   Inverter layout
+    -   Switch layout and simulation
+    -	2-Bit DAC layout and simulation
+    -	3-Bit DAC layout and simulation
+    -	4-Bit DAC layout and simulation
+    -	5-Bit DAC layout and simulation
+    -	6-Bit DAC layout and simulation
+    -	7-Bit DAC layout and simulation
+    -	8-Bit DAC layout and simulation
+    -	9-Bit DAC layout and simulation
+    -	10-Bit DAC layout and simulation
 -	8.Instructions to get started with the design
+    -	Spice simulation speed improvement (Multi-threading)
     -	Pre-layout Simulation commands
     -	Post-layout Simulation commands
 -	9.Future Works
@@ -117,10 +128,10 @@ The basic idea is to divide the voltage into N different voltage values in the r
 
 Switch design implementation is shown below 
 
-![Switch Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/switch.PNG)
+![Switch Design]()
 
 
-![Switch waveform](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/switch_outputfinal.png)
+![Switch waveform]()
 
 
 To see this waveform run switch.spice file
@@ -130,10 +141,10 @@ To see this waveform run switch.spice file
 2Bit DAC is implemented using 3 switch instances. 2-Bit circuitry and waveform are shown bellow
 
 
-![2Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/2bitdac_sch.PNG)
+![2Bit DAC Design]()
 
 
-![2Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/2bit_waveform.PNG)
+![2Bit DAC WaveForm]()
 
 
 To see this waveform run my_2bitdac.spice file
@@ -142,9 +153,9 @@ To see this waveform run my_2bitdac.spice file
 
 3Bit DAC is implemented using 2 2-Bit DACs and 1 switch instances. 3-Bit circuitry and waveform are shown bellow
 
-![3Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/3bitdac_sch.PNG)
+![3Bit DAC Design]()
 
-![3Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/3bit_waveform.PNG)
+![3Bit DAC WaveForm]()
 
 To see this waveform run my_3bitdac.spice file
 
@@ -152,9 +163,9 @@ To see this waveform run my_3bitdac.spice file
 
 4Bit DAC is implemented using 2 3-Bit DACs and 1 switch instances. 4-Bit circuitry and waveform are shown bellow
 
-![4Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/4bitdac_sch.PNG)
+![4Bit DAC Design]()
 
-![4Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/4bit_waveform.PNG)
+![4Bit DAC WaveForm]()
 
 To see this waveform run my_4bitdac.spice file
 
@@ -162,9 +173,9 @@ To see this waveform run my_4bitdac.spice file
 
 5Bit DAC is implemented using 2 4-Bit DACs and 1 switch instances. 5-Bit circuitry and waveform are shown bellow
 
-![5Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/5bitdac_sch.PNG)
+![5Bit DAC Design]()
 
-![5Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/5bit_waveform.PNG)
+![5Bit DAC WaveForm]()
 
 
 To see this waveform run my_5bitdac.spice file
@@ -173,9 +184,9 @@ To see this waveform run my_5bitdac.spice file
 
 6Bit DAC is implemented using 2 5-Bit DACs and 1 switch instances. 6-Bit circuitry and waveform are shown bellow
 
-![6Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/6bitdac_sch.PNG)
+![6Bit DAC Design]()
 
-![6Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/6bit_waveform.PNG)
+![6Bit DAC WaveForm]()
 
 
 
@@ -184,9 +195,9 @@ To see this waveform run my_6bitdac.spice file
 #### *7-Bit DAC design and simulation:*
 
 7Bit DAC is implemented using 2 6-Bit DACs and 1 switch instances. 7-Bit circuitry and waveform are shown bellow
-![7Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/7bit_sch.PNG)
+![7Bit DAC Design]()
 
-![7Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/7bit_waveform.PNG)
+![7Bit DAC WaveForm]()
 
 
 To see this waveform run my_7bitdac.spice file
@@ -195,19 +206,19 @@ To see this waveform run my_7bitdac.spice file
 
 8Bit DAC is implemented using 2 7-Bit DACs and 1 switch instances. 8-Bit circuitry and waveform are shown bellow
 
-![8Bit DAC Design](https://github.com/deepsita/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/8bitdac_sch.PNG)
+![8Bit DAC Design]()
 
-![8Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/8bit_waveform.PNG)
+![8Bit DAC WaveForm]()
 
 To see this waveform run my_8bitdac.spice file
 
 #### *9-Bit DAC design:*
 9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instances. 9-Bit circuitry is shown bellow
 
-![9Bit DAC Design](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/9bit_sch.PNG)
+![9Bit DAC Design]()
 
 
-![9Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/9bit.png)
+![9Bit DAC WaveForm]()
 
 
 The my_9bitdac.spice spice file can be excecuted to test. 
@@ -215,10 +226,10 @@ The my_9bitdac.spice spice file can be excecuted to test.
 #### *10-Bit DAC design:*
 10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instances. 10-Bit circuitry is shown bellow
 
-![10Bit DAC Design](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/10bitdac_sch.PNG)
+![10Bit DAC Design]()
 
 
-![10Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Schematic_And_Waveform_Images/Final_Outputs/10bit.png)
+![10Bit DAC WaveForm]()
 
 
 The my_10bitdac.spice spice file can be excecuted to test.
@@ -275,16 +286,18 @@ However, multithreading option is effective if the major part of the circuit are
 #### Pre-layout Simulation commands
 o	Clone the git repo with following command
 
-        git clone  https://github.com/deepsita/P-DAC_INTERNSHIP.git
+        git clone https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP.git
+        
 
+o	The conventional design Spice files are in the path 
+                    P-DAC_INTERNSHIP/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/
 
-o	The conventional design Spice files are in the path P-DAC_INTERNSHIP/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/
+o	The new proposed design Spice files are in the path 
+                    P-DAC_INTERNSHIP/ProjectDesigns/spicefiles/
 
-o	The new proposed design Spice files are in the path P-DAC_INTERNSHIP/ProjectDesigns/spicefiles/
+o	The libraries are given the folder P-DAC_INTERNSHIP/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/sky130_fd_pr/
 
-o	The libraries are given the folder P-DAC_INTERNSHIP/sky130_fd_pr/
-
-o   Open the terminal from the cloned folder or run bellow command after cloning whilw in the same path
+o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
     
     cd P-DAC_INTERNSHIP/ 
 
@@ -301,11 +314,11 @@ o	Command to simulate .Spice files of new proposed design
 #### Post-layout Simulation commands
 o   Clone the git repo with following command (if you haven't clodes for pre-layout simulation)
 
-        git clone  https://github.com/deepsita/P-DAC_INTERNSHIP.git
+               git clone https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP.git
 
 ## 9.Future Works
 
-Layout of 10Bit Potentiometer DAC.
+Layout simulation of 10Bit Potentiometer DAC and plotting INL & DNL for 10Bit DAC desing and layout.
 The design for the new implementation can be modify and the results for both designs can be compared
 
 
