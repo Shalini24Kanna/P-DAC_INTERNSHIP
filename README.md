@@ -304,22 +304,64 @@ To see the wavefrom run `3bitdac_layout_test.spice` file.
 To see the wavefrom run `4bitdac_layout_test.spice` file.
 
 #### *5-Bit DAC layout and simulation*
+5Bit DAC is implemented using 2 4-Bit DACs and 1 switch instances. 5-Bit layout and waveform are shown bellow
 
+![5bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/5bitdac%20layout%20design.png)
+
+![5Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/5bitdac%20layout%20waveform.png)
+
+
+To see the wavefrom run `5bitdac_layout_test.spice` file.
 
 #### *6-Bit DAC layout and simulation*
+6Bit DAC is implemented using 2 5-Bit DACs and 1 switch instances. 6-Bit layout and waveform are shown bellow
 
+![6bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/6bitdac%20layout%20design.png)
+
+![6Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/6bitdac%20layout%20waveform.png)
+
+
+To see the wavefrom run `6bitdac_layout_test.spice` file.
 
 #### *7-Bit DAC layout and simulation*
+7Bit DAC is implemented using 2 6-Bit DACs and 1 switch instances. 7-Bit layout and waveform are shown bellow
 
+![7bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/7bitdac%20layout%20design.png)
+
+![7Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/7bitdac%20layout%20waveform.png)
+
+
+To see the wavefrom run `7bitdac_layout_test.spice` file.
 
 #### *8-Bit DAC layout and simulation*
+8Bit DAC is implemented using 2 7-Bit DACs and 1 switch instances. 8-Bit layout and waveform are shown bellow
 
+![8bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/8bitdac%20layout%20desing.png)
+
+![8Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/8bitdac%20layout%20waveform.png)
+
+
+To see the wavefrom run `8bitdac_layout_test.spice` file.
 
 #### *9-Bit DAC layout and simulation*
+9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instances. 9-Bit layout and waveform are shown bellow
 
+![9bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/9bitdac%20layout%20desing.png)
+
+![9Bit DAC WaveForm]()
+
+
+To see the wavefrom run `9bitdac_layout_test.spice` file.
 
 #### *10-Bit DAC layout and simulation*
+10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instances. 10-Bit layout and waveform are shown bellow
 
+![10bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/10bitdac%20layout%20desing.png)
+
+![10Bit DAC WaveForm]()
+
+
+To see the wavefrom run `10bitdac_layout_test.spice` file.
 
 
 ## 8.Instructions to get started with the design
@@ -364,7 +406,8 @@ o	The conventional design Spice files are in the path
 o	The new proposed design Spice files are in the path 
                     P-DAC_INTERNSHIP/ProjectDesigns/spicefiles/
 
-o	The libraries are given the folder P-DAC_INTERNSHIP/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/sky130_fd_pr/
+o	The libraries are given the folder 
+                    P-DAC_INTERNSHIP/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/sky130_fd_pr/
 
 o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
     
@@ -381,9 +424,20 @@ o	Command to simulate .Spice files of new proposed design
     ngspice ProjectDesigns/spicefiles/<Designname.spice>  
 
 #### Post-layout Simulation commands
-o   Clone the git repo with following command (if you haven't clodes for pre-layout simulation)
+o   Clone the git repo with following command (if you haven't cloned for pre-layout simulation)
 
                git clone https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP.git
+         
+o	The conventional design Spice files are in the path 
+                    P-DAC_INTERNSHIP/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/  
+                    
+o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
+    
+        cd P-DAC_INTERNSHIP/ 
+
+o	Command to simulate .Spice files of conventional design layout
+    `cd 10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/`
+    
 
 ## 9.Future Works
 
