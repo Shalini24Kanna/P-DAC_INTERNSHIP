@@ -411,17 +411,17 @@ o	The libraries are given the folder
 
 o   Open the terminal from the cloned folder or run bellow command after cloning while in the same path
     
-    cd P-DAC_INTERNSHIP/ 
+            cd P-DAC_INTERNSHIP/ 
 
 o	Command to simulate .Spice files of conventional design
 
-    cd 10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/
+            cd 10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/
    
-    ngspice <Designname.spice>  
+            ngspice <Designname.spice>  
     
 o	Command to simulate .Spice files of new proposed design
 
-    ngspice ProjectDesigns/spicefiles/<Designname.spice>  
+            ngspice ProjectDesigns/spicefiles/<Designname.spice>  
 
 #### Post-layout Simulation commands
 o   Clone the git repo with following command (if you haven't cloned for pre-layout simulation)
@@ -436,7 +436,8 @@ o   Open the terminal from the cloned folder or run bellow command after cloning
         cd P-DAC_INTERNSHIP/ 
 
 o	Command to simulate .Spice files of conventional design layout
-    `cd 10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/`
+        
+        `cd 10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/`
     
 
 ## 9.Future Works
