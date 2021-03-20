@@ -348,7 +348,7 @@ To see the wavefrom run `8bitdac_layout_test.spice` file.
 
 ![9bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/9bitdac%20layout%20desing.png)
 
-![9Bit DAC WaveForm]()
+![9Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/9bitdac_layout_waveform.png)
 
 
 To see the wavefrom run `9bitdac_layout_test.spice` file.
