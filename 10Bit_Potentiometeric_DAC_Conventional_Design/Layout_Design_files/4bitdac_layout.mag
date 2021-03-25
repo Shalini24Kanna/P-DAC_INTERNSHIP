@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1615866406
+timestamp 1616476056
 << locali >>
 rect 116 2701 145 2741
 rect 6595 1744 6620 1745
@@ -114,6 +114,10 @@ rect 1940 375 1974 513
 rect 1940 349 1946 375
 rect 1969 349 1974 375
 rect 1940 343 1974 349
+rect 5916 297 5963 303
+rect 5916 268 5929 297
+rect 5956 268 5963 297
+rect 5916 264 5963 268
 rect 399 235 422 251
 rect 399 234 423 235
 rect 394 232 426 234
@@ -125,6 +129,10 @@ rect 397 113 429 117
 rect 397 96 403 113
 rect 422 96 429 113
 rect 397 93 429 96
+rect 5546 -103 5604 -66
+rect 5546 -131 5548 -103
+rect 5574 -131 5604 -103
+rect 5546 -139 5604 -131
 rect 394 -153 432 -148
 rect 394 -155 433 -153
 rect 394 -179 403 -155
@@ -154,22 +162,61 @@ rect 3695 -831 3746 -609
 rect 3695 -864 3706 -831
 rect 3733 -864 3746 -831
 rect 3695 -875 3746 -864
-use res250_layout  res250_layout_0
-timestamp 1615764517
-transform 0 -1 -24 1 0 -334
-box 109 -171 242 -45
+<< via1 >>
+rect 5929 268 5956 297
+rect 5548 -131 5574 -103
+<< metal2 >>
+rect 5924 346 5962 351
+rect 5924 313 5929 346
+rect 5959 313 5962 346
+rect 5924 297 5962 313
+rect 5924 268 5929 297
+rect 5956 268 5962 297
+rect 5924 265 5962 268
+rect 3266 -108 3285 109
+rect 5545 -103 5582 -96
+rect 5545 -108 5548 -103
+rect 3266 -131 5548 -108
+rect 5574 -131 5582 -103
+rect 3266 -132 5582 -131
+rect 3266 -2934 3285 -132
+<< via2 >>
+rect 5929 313 5959 346
+<< metal3 >>
+rect 5925 413 5963 420
+rect 5925 386 5930 413
+rect 5924 381 5930 386
+rect 5962 381 5963 413
+rect 5924 346 5963 381
+rect 5924 313 5929 346
+rect 5959 313 5963 346
+rect 5924 310 5963 313
+<< via3 >>
+rect 5930 381 5962 413
+<< metal4 >>
+rect 3421 481 3460 1500
+rect 3410 442 5963 481
+rect 3421 -387 3460 442
+rect 5925 413 5963 442
+rect 5925 381 5930 413
+rect 5962 381 5963 413
+rect 5925 375 5963 381
+use 3bitdac_layout  3bitdac_layout_1
+timestamp 1616475377
+transform 1 0 24 0 1 -1477
+box -27 -1530 5060 1332
+use 3bitdac_layout  3bitdac_layout_0
+timestamp 1616475377
+transform 1 0 27 0 1 1530
+box -27 -1530 5060 1332
 use switch_layout  switch_layout_0
 timestamp 1615739263
 transform 1 0 5477 0 1 -227
 box 20 86 1230 590
-use 3bitdac_layout  3bitdac_layout_1
-timestamp 1615853770
-transform 1 0 24 0 1 -1477
-box -27 -1530 5060 1272
-use 3bitdac_layout  3bitdac_layout_0
-timestamp 1615853770
-transform 1 0 27 0 1 1530
-box -27 -1530 5060 1272
+use res250_layout  res250_layout_0
+timestamp 1615764517
+transform 0 -1 -24 1 0 -334
+box 109 -171 242 -45
 << labels >>
 rlabel locali 6717 124 6717 124 1 out_v
 rlabel locali 5488 51 5488 51 1 d3
@@ -184,4 +231,6 @@ rlabel locali 20 -3012 20 -3012 1 inp2
 rlabel locali 127 2721 127 2721 1 inp1
 rlabel locali 5167 -1280 5167 -1280 1 x2_out_v
 rlabel locali 5297 1731 5297 1731 1 x1_out_v
+rlabel metal2 5484 -123 5484 -123 1 gnd!
+rlabel metal4 5795 457 5795 457 1 vdd!
 << end >>

@@ -53,8 +53,8 @@ X47 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x2_vout 4bitdac_layout_0/
 X48 4bitdac_layout_0/3bitdac_layout_0/x1_out_v 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/dinb 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X49 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x1_inp1 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X50 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x1_inp2 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X51 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x2_inp1 4bitdac_layout_0/3bitdac_layout_0/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-X52 inp1 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X51 inp1 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X52 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_0/x2_inp1 4bitdac_layout_0/3bitdac_layout_0/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X53 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
 X54 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
 X55 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dinb d0 gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
@@ -81,8 +81,8 @@ X75 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x2_vout 4bitdac_layout_0/
 X76 4bitdac_layout_0/3bitdac_layout_0/x2_out_v 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/switch_layout_2/dinb 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X77 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x1_inp1 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X78 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x1_inp2 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X79 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x2_inp1 4bitdac_layout_0/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-X80 4bitdac_layout_0/3bitdac_layout_0/x2_vref1 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X79 4bitdac_layout_0/3bitdac_layout_0/x2_vref1 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X80 4bitdac_layout_0/3bitdac_layout_0/2bitdac_layout_1/x2_inp1 4bitdac_layout_0/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X81 4bitdac_layout_0/3bitdac_layout_0/x1_vref5 4bitdac_layout_0/3bitdac_layout_0/x2_vref1 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X82 4bitdac_layout_0/3bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_0/3bitdac_layout_1/switch_layout_0/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
 X83 4bitdac_layout_0/3bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_0/3bitdac_layout_1/switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
@@ -118,8 +118,8 @@ X112 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x2_vout 4bitdac_layout_0
 X113 4bitdac_layout_0/3bitdac_layout_1/x1_out_v 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/switch_layout_2/dinb 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X114 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x1_inp1 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X115 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x1_inp2 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X116 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x2_inp1 4bitdac_layout_0/3bitdac_layout_1/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-X117 4bitdac_layout_0/x2_vref1 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X116 4bitdac_layout_0/x2_vref1 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X117 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_0/x2_inp1 4bitdac_layout_0/3bitdac_layout_1/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X118 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
 X119 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
 X120 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dinb d0 gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
@@ -146,8 +146,8 @@ X140 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x2_vout 4bitdac_layout_0
 X141 4bitdac_layout_0/3bitdac_layout_1/x2_out_v 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/switch_layout_2/dinb 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X142 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x1_inp1 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X143 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x1_inp2 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X144 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x2_inp1 x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-X145 4bitdac_layout_0/3bitdac_layout_1/x2_vref1 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X144 4bitdac_layout_0/3bitdac_layout_1/x2_vref1 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X145 4bitdac_layout_0/3bitdac_layout_1/2bitdac_layout_1/x2_inp1 x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X146 4bitdac_layout_0/3bitdac_layout_1/x1_vref5 4bitdac_layout_0/3bitdac_layout_1/x2_vref1 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X147 4bitdac_layout_0/x2_vref1 4bitdac_layout_0/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X148 4bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_1/switch_layout_0/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
@@ -192,8 +192,8 @@ X186 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x2_vout 4bitdac_layout_1
 X187 4bitdac_layout_1/3bitdac_layout_0/x1_out_v 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/switch_layout_2/dinb 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X188 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x1_inp1 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X189 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x1_inp2 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X190 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x2_inp1 4bitdac_layout_1/3bitdac_layout_0/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-X191 x2_vref1 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X190 x2_vref1 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X191 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_0/x2_inp1 4bitdac_layout_1/3bitdac_layout_0/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X192 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
 X193 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
 X194 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/switch_layout_0/dinb d0 gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
@@ -220,8 +220,8 @@ X214 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x2_vout 4bitdac_layout_1
 X215 4bitdac_layout_1/3bitdac_layout_0/x2_out_v 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/switch_layout_2/dinb 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X216 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x1_inp1 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X217 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x1_inp2 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X218 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x2_inp1 4bitdac_layout_1/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-X219 4bitdac_layout_1/3bitdac_layout_0/x2_vref1 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X218 4bitdac_layout_1/3bitdac_layout_0/x2_vref1 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X219 4bitdac_layout_1/3bitdac_layout_0/2bitdac_layout_1/x2_inp1 4bitdac_layout_1/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X220 4bitdac_layout_1/3bitdac_layout_0/x1_vref5 4bitdac_layout_1/3bitdac_layout_0/x2_vref1 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X221 4bitdac_layout_1/3bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_1/3bitdac_layout_1/switch_layout_0/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
 X222 4bitdac_layout_1/3bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_1/3bitdac_layout_1/switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
@@ -257,8 +257,8 @@ X251 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x2_vout 4bitdac_layout_1
 X252 4bitdac_layout_1/3bitdac_layout_1/x1_out_v 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/switch_layout_2/dinb 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X253 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x1_inp1 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X254 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x1_inp2 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X255 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x2_inp1 4bitdac_layout_1/3bitdac_layout_1/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-X256 4bitdac_layout_1/x2_vref1 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X255 4bitdac_layout_1/x2_vref1 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X256 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_0/x2_inp1 4bitdac_layout_1/3bitdac_layout_1/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X257 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dinb gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
 X258 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dd 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dinb vdd vdd sky130_fd_pr__pfet_01v8 w=120 l=15
 X259 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/switch_layout_0/dinb d0 gnd gnd sky130_fd_pr__nfet_01v8 w=61 l=15
@@ -285,11 +285,11 @@ X279 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x2_vout 4bitdac_layout_1
 X280 4bitdac_layout_1/3bitdac_layout_1/x2_out_v 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/switch_layout_2/dinb 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X281 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x1_inp1 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X282 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x1_inp2 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X283 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x2_inp1 inp2 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-X284 4bitdac_layout_1/3bitdac_layout_1/x2_vref1 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X283 4bitdac_layout_1/3bitdac_layout_1/x2_vref1 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+X284 4bitdac_layout_1/3bitdac_layout_1/2bitdac_layout_1/x2_inp1 inp2 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X285 4bitdac_layout_1/3bitdac_layout_1/x1_vref5 4bitdac_layout_1/3bitdac_layout_1/x2_vref1 gnd sky130_fd_pr__res_generic_nd w=29 l=65
 X286 4bitdac_layout_1/x2_vref1 4bitdac_layout_1/x1_vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-C0 vdd gnd 73.55fF
-C1 d0 gnd 21.17fF
-C2 4bitdac_layout_1/x1_vref5 gnd 2.10fF
-C3 4bitdac_layout_0/x1_vref5 gnd 2.10fF
+C0 vdd gnd 76.68fF
+C1 d0 gnd 22.37fF
+C2 4bitdac_layout_1/x1_vref5 gnd 2.13fF
+C3 4bitdac_layout_0/x1_vref5 gnd 2.13fF
