@@ -347,7 +347,7 @@ To see the wavefrom run `7bitdac_layout_test.spice` file.
 
 ![8bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/8bitdac%20layout%20design.PNG)
 
-![8Bit DAC WaveForm]()
+![8Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/8bitdac%20layout%20waveform.PNG)
 
 
 To see the wavefrom run `8bitdac_layout_test.spice` file.
