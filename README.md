@@ -451,7 +451,7 @@ o	Command to simulate .Spice files of conventional design layout
 
 ## 9.Future Works
 
-Layout simulation of 10Bit Potentiometer DAC and plotting INL & DNL for 10Bit DAC desing and layout.
+Layout simulation of 10Bit Potentiometer DAC and plotting INL & DNL for 10Bit DAC layout. Runtime for layout can be reduced further.
 The design for the new implementation can be modify and the results for both designs can be compared
 
 
