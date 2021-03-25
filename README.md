@@ -462,3 +462,5 @@ Shalini Kanna, Masters of Science in Computer Engineering, University of Massach
 Harshitha Basavaraju, PhD Scholar @ Contact: harshithab0707@gmail.com
 
 Skandha Deepsita S, PhD Scholar @ IIITDM Kancheepuram; Contact: skandha.deepsita5@gmail.com, [LinkedIn](linkedin.com/in/skandha-deepsita-sarvepalli-027433ba)
+
+Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
