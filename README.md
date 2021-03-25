@@ -327,7 +327,7 @@ To see the wavefrom run `5bitdac_layout_test.spice` file.
 
 ![6bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/6bitdac%20layout%20design.PNG)
 
-![6Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/6bitdac%20layout%20waveform.png)
+![6Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/6bitdac%20layout%20waveform.PNG)
 
 
 To see the wavefrom run `6bitdac_layout_test.spice` file.
@@ -337,7 +337,7 @@ To see the wavefrom run `6bitdac_layout_test.spice` file.
 
 ![7bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/7bitdac%20layout%20design.PNG)
 
-![7Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/7bitdac%20layout%20waveform.png)
+![7Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/7bitdac%20layout%20waveform.PNG)
 
 
 To see the wavefrom run `7bitdac_layout_test.spice` file.
@@ -347,7 +347,7 @@ To see the wavefrom run `7bitdac_layout_test.spice` file.
 
 ![8bit DAC layout](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/8bitdac%20layout%20design.PNG)
 
-![8Bit DAC WaveForm](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/8bitdac%20layout%20waveform.png)
+![8Bit DAC WaveForm]()
 
 
 To see the wavefrom run `8bitdac_layout_test.spice` file.
@@ -446,8 +446,8 @@ o   Open the terminal from the cloned folder or run bellow command after cloning
 
 o	Command to simulate .Spice files of conventional design layout
         
-        `cd 10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/`
-    
+        cd 10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/
+        ngspice <nbitdac_layout_test.spice>
 
 ## 9.Future Works
 
