@@ -457,7 +457,7 @@ The design for the new implementation can be modify and the results for both des
 
 ## 10.Contributors
 
-Shalini Kanna, Master's of Science in Computer Engineering, University of Massachusetts Lowell, Lowell,MA, USA; Contact: kannashalini97@gmail.com, [LinkedIn](https://www.linkedin.com/in/shalini-kanna/)
+Shalini Kanna, Master of Science in Computer Engineering, University of Massachusetts Lowell, Lowell,MA, USA; Contact: kannashalini97@gmail.com, [LinkedIn](https://www.linkedin.com/in/shalini-kanna/)
 
 Harshitha Basavaraju, PhD Scholar @ University of Bundeswehr, Munich, Germany; Contact: harshithab0707@gmail.com
 
