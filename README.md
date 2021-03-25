@@ -447,7 +447,7 @@ o   Open the terminal from the cloned folder or run bellow command after cloning
 o	Command to simulate .Spice files of conventional design layout
         
         cd 10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/
-        ngspice <nbitdac_layout_test.spice>
+        ngspice nbitdac_layout_test.spice
 
 ## 9.Future Works
 
