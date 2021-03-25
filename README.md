@@ -18,6 +18,7 @@ The target is to design 10-bit potentiometric DAC with 3.3v analog voltage, 1.8v
     -	8-Bit DAC design and simulation
     -	9-Bit DAC design and simulation
     -	10-Bit DAC design and simulation
+    -	INL and DNL Waveforms
 -	7.Post-Layout Designs and Simulations (Conventional Implementation)
     -   Resistor 250 layout and value
     -   Resistor 500 layout and value
