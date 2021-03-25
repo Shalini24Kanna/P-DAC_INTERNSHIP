@@ -28,6 +28,6 @@ X22 x2_vout switch_layout_2/dd out_v switch_layout_2/w_908_86# sky130_fd_pr__pfe
 X23 out_v switch_layout_2/dinb x2_vout gnd sky130_fd_pr__nfet_01v8 w=60 l=15
 X24 x1_inp1 x1_inp2 gnd sky130_fd_pr__res_generic_nd w=27 l=124
 X25 x1_inp2 x2_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X26 vref1 x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
-X27 x2_inp1 vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
-C0 vdd gnd 7.15fF
+X26 x2_inp1 vref5 gnd sky130_fd_pr__res_generic_nd w=29 l=65
+X27 vref1 x1_inp1 gnd sky130_fd_pr__res_generic_nd w=27 l=124
+C0 vdd gnd 7.39fF
