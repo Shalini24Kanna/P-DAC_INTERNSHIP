@@ -237,6 +237,14 @@ To see the wavefrom run `my_10bitdac.spice` file.
 
 Every block of the circuit until 10 bit DAC are tested and spice models until 10 bit dac are included in [specified folders](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/tree/main/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles).
 
+### INL AND DNL outputs
+
+![](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/DNL_LSB.png)
+
+
+![](https://github.com/Shalini24Kanna/P-DAC_INTERNSHIP/blob/main/10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/INL_LSB.png)
+
+
 
 ## 7.Post-layout Designs and Simulations (Conventional Implementation)
 #### *Resistor 250 layout and value*
