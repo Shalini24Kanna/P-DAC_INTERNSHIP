@@ -426,7 +426,7 @@ o	Command to simulate .Spice files of conventional design
 
             cd 10Bit_Potentiometeric_DAC_Conventional_Design/spicefiles/
    
-            ngspice <Designname.spice>  
+            ngspice my_nbitdac.spice  
     
 o	Command to simulate .Spice files of new proposed design
 
