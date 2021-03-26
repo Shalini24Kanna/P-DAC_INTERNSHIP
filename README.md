@@ -449,6 +449,8 @@ o	Command to simulate .Spice files of conventional design layout
         cd 10Bit_Potentiometeric_DAC_Conventional_Design/Layout_Design_files/
         ngspice nbitdac_layout_test.spice
 
+o type `y` when simulation asks for
+
 ## 9.Future Works
 
 Layout simulation of 10Bit Potentiometer DAC and plotting INL & DNL for 10Bit DAC layout. Runtime for layout can be reduced further.
